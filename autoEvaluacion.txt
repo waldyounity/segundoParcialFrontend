@@ -1,0 +1,29 @@
+Autoevaluación
+
+Durante el desarrollo del proyecto correspondiente al segundo parcial, logré cumplir satisfactoriamente con todos los objetivos planteados, incluyendo la implementación del backend en Laravel y el frontend en Angular, así como la integración de la interfaz con Bootstrap 5. Los avances específicos incluyen:
+
+Creación del proyecto Laravel y estructura inicial:
+Se levantó un proyecto Laravel funcional y se subió correctamente, estableciendo la base para el desarrollo del backend.
+
+Migraciones y modelos:
+Se creó la migración para la tabla empleados con la estructura requerida, el modelo Empleado con sus atributos fillable correctamente configurados, y se desarrolló un seeder (EmpleadoSeeder) con más de 10 registros de ejemplo.
+
+Ejecución de migraciones y seeders:
+La base de datos fue creada, migrada y poblada exitosamente, verificando que los registros se insertaran correctamente.
+
+Controlador y rutas de la API:
+Se implementó un controlador con rutas GET y POST para empleados, logrando una API REST funcional y lista para ser consumida desde el frontend.
+
+Documentación básica:
+Se agregó una guía de ejecución del backend en el README, con indicaciones claras para levantar el proyecto y probar la API.
+
+Frontend en Angular:
+Se creó un proyecto Angular y un componente empleados que consume la API mediante un servicio dedicado, logrando que las peticiones GET y POST funcionen correctamente.
+
+Vista e interacción con la interfaz:
+Se desarrolló una interfaz que muestra los empleados en una tabla y permite insertar nuevos registros mediante un formulario. La UI se diseñó con Bootstrap 5, logrando un diseño responsive que se adapta a distintos tamaños de pantalla.
+
+Validación y experiencia de usuario:
+El formulario cuenta con validaciones para todos los campos requeridos, y al insertar un nuevo empleado, el formulario se resetea automáticamente y la tabla se actualiza de inmediato, mostrando los datos recién agregados.
+
+En conclusión, se logró implementar un sistema funcional, integrado y estéticamente consistente, cumpliendo con los objetivos técnicos y de usabilidad planteados para el parcial.
